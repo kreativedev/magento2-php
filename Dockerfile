@@ -25,7 +25,7 @@ RUN \
   autoconf \
   libbz2-dev \
   libltdl-dev \
-  libpng12-dev \
+  libpng-dev \
   libjpeg62-turbo-dev \
   libfreetype6-dev \
   libxpm-dev \
@@ -35,7 +35,6 @@ RUN \
   libxslt1-dev \
   re2c \
   libpng++-dev \
-  libpng3 \
   libvpx-dev \
   zlib1g-dev \
   libgd-dev \
@@ -49,9 +48,7 @@ RUN \
   curl \
   wget \
   librabbitmq-dev \
-  libzip-dev \
-  libzip2
-
+  libzip-dev
 # http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html
 RUN \
     /usr/local/bin/docker-php-ext-install \
